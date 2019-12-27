@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<mavlink>
+  <include>common.xml</include>
+  <version>3</version>   
+  <messages> 
+    <message id="304" name="SELF_FAX_FORMATION">
+      <wip/>
+      <!-- This message is work-in-progress and it can therefore change. It should NOT be used in stable production environments. -->
+      <description>Custom drone messages for fixed-wing formation flight</description>
+      <field type="int32_t" name="MMSI">Mobile Marine Service Identifier, 9 decimal digits</field>
+      <field type="int32_t" name="lat" units="degE7">Latitude</field>
+      <field type="int32_t" name="lon" units="degE7">Longitude</field>
+    </message>
+  </messages>
+</mavlink>

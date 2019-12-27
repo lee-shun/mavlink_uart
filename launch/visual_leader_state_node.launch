@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="mavlink_uart" type="visual_leader_state_node" name="visual_leader_state_node" output="screen">
+ 
+  </node>
+</launch>
+

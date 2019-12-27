@@ -1,0 +1,13 @@
+# Mavlink_mission config parameter
+
+# 设备编号	/9-地面站
+system_id: 1
+
+# 串口端口/dev/ttyUSB*
+uart_name_No: 0
+
+# 串口波特率 /57600 /115200 /961200 ...
+baudrate: 57600
+
+# 1发送 0读取
+case0r_1s: 0

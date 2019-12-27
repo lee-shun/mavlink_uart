@@ -1,0 +1,9 @@
+<launch>
+  <node pkg="mavlink_uart" type="mavlink_uart_node" name="mavlink_uart_node" output="screen">
+ 
+	<!-- Read Mavlink_mission parameters -->
+	<rosparam command="load" file="$(find mavlink_uart)/launch/Mission_config_s.yaml" />
+
+  </node>
+</launch>
+

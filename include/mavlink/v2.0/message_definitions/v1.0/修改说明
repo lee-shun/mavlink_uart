@@ -1,0 +1,30 @@
+
+
+common.xml添加了自定义的格式
+使用mavgenerate编译common.xml后生成的头文件
+
+添加内容
+---------------------------------------------------------------------------------------------------
+   <message id="304" name="SELF_FAX_FORMATION">
+      <wip/>
+      <!-- This message is work-in-progress and it can therefore change. It should NOT be used in stable production environments. -->
+      <description>Custom drone messages for fixed-wing formation flight</description>
+      <field type="double" name="ned_vel_x" units="m/s">ned_vel_x</field>
+      <field type="double" name="ned_vel_y" units="m/s">ned_vel_y</field>
+      <field type="double" name="ned_vel_z" units="m/s">ned_vel_z</field>
+      <field type="double" name="latitude">latitude</field>
+      <field type="double" name="altitude">altitude</field>
+      <field type="double" name="longtitude">longtitude</field>
+    </message>
+
+
+
+
+
+
+
+
+
+
+
+
